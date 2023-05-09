@@ -1,53 +1,29 @@
+# Todo List App with React Native
 
-# Hi, Upshift Team! 👋  
+This is a simple Todo List app built with React Native.
 
-## Run Locally  
-Clone the project open terminal of you pc and paste this command
-~~~bash  
-  git clone https://gitlab.com/mahmoudshier068/mahmoud_shaeer_upshift_technical_challenge.git
-~~~
+## Installation
 
-~~~bash  
-  cd mahmoud_shaeer_upshift_technical_challenge
-~~~
+1. Clone the repository: `git clone <repository-url>`
+2. Install dependencies: `npm install`
 
-2- run this command 
+## Usage
 
-~~~bash  
-  yarn install
-~~~
- 
-3- to run this on android you only need run this command 
-~~~bash  
-  yarn android
-~~~
-4- to run this on IOS devices you need run this command 
-~~~bash  
-  yarn ios
-~~~
+- Run the app on Android emulator or connected Android device: `npm run android`
+- Run the app on iOS simulator or connected iOS device: `npm run ios`
+- Start the Metro Bundler: `npm start`
+- Run TypeScript type checking: `npm run ts-check`
+- Lint the code: `npm run lint`
+- Run tests: `npm run test`
 
+## Scripts
 
- 
-## Third-party Library : 
-
-
- 
-## redux-persist  
-work with local storage for app to handel auto login 
-
-## react-native-spinkit
-this for good indecator for any loading in app
-
-## react-native-uuid
-to generate id and token for user
-
-## react-native-flash-message
-this good alert for any success operation like delete post add post ...etc
-
-## @hookform/resolvers 
-this for use Yup with react-hook-form for validation fileds 
-
-## react-native-dotenv
-to secure base url for any http request in app 
-
-
+- `postinstall`: Run `npx typesync` after installation to sync TypeScript types.
+- `android`: Build and run the Android app.
+- `android:clean`: Clean the Android build artifacts and rebuild the app.
+- `ios`: Build and run the iOS app.
+- `ios:clean`: Clean the iOS build artifacts and rebuild the app.
+- `start`: Start the Metro Bundler.
+- `ts-check`: Run TypeScript type checking.
+- `lint`: Lint the code using ESLint.
+- `test`: Run tests using Jest.
