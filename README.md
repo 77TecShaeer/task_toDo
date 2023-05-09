@@ -5,7 +5,7 @@ This is a simple Todo List app built with React Native.
 ## Installation
 
 1. Clone the repository: `git clone <repository-url>`
-2. Install dependencies: `npm install`
+2. Install dependencies: `yarn install`
 
 ## Usage
 
